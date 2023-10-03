@@ -1,0 +1,15 @@
+.boxW{
+    width: 100px;
+    height:100px;
+    border: solid 1px black;
+    display: inline-flex;
+    margin: -2px;
+}
+.boxB{
+    width: 100px;
+    height:100px;
+    border: solid 1px black;
+    display: inline-flex;
+    margin: -2px;
+    background-color: black;
+}
