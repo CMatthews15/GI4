@@ -1,0 +1,157 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{display:flex;
+    Justify-content:center;
+}
+
+    h1{text-align: center;
+    margin:75px;
+    background-color: rgb(241, 179, 243);
+    width:35%;
+    padding: 20px;
+    border: 1px solid rgb(241, 179, 243);
+   border-radius:6px;
+}
+#descriptionHermes{
+    display:flex;
+    position: relative;
+   background-color: rgb(241, 179, 243);
+   top:31px;
+   padding:10px;
+   border: 1px solid rgb(241, 179, 243);
+   border-radius:6px;
+}
+
+#descriptionLanvin{
+    display:flex;
+    position: relative;
+   background-color: rgb(241, 179, 243);
+   top:51px;
+   padding:10px;
+   border: 1px solid rgb(241, 179, 243);
+   border-radius:6px;
+}
+#descriptionVersace{
+   background-color: rgb(241, 179, 243);
+   padding:10px;
+   border: 1px solid rgb(241, 179, 243);
+   border-radius:6px;
+   top:3px;
+}
+
+#descriptionNaturium{
+    background-color: rgb(241, 179, 243);
+    padding:10px;
+    border: 1px solid rgb(241, 179, 243);
+    border-radius:6px;
+}
+
+#descriptionLV{
+    display:flex;
+    position: relative;
+   background-color:rgb(241, 179, 243) ;
+   top: -10px;
+   padding:10px;
+   border: 1px solid rgb(241, 179, 243);
+   border-radius:6px;
+}
+
+#descriptionFendi{
+    display:flex;
+    position: relative;
+   background-color: rgb(241, 179, 243);
+   top:25px;
+   padding:10px;
+   border: 1px solid rgb(241, 179, 243);
+   border-radius:6px;
+}
+
+#descriptionValentino{
+    background-color: rgb(241, 179, 243);
+    padding:10px;
+    border: 1px solid rgb(241, 179, 243);
+    border-radius:6px;
+}
+
+#descriptionVancleef{
+        background-color: rgb(241, 179, 243);
+        padding:10px;
+        border: 1px solid rgb(241, 179, 243);
+        border-radius:6px;
+    }
+
+main {
+    box-sizing:border-box; 
+    font-size: 19px;
+    
+
+}
+
+
+#hermes{ 
+    height:60%;
+    width:60%;
+}
+#lanvin{ 
+    height:78%;
+    width:75%;
+    
+   
+    
+}
+   
+#versace{ 
+    height:59%;
+    width:59%;
+}
+#naturium{ 
+    height:80%;
+    width:80%;
+    
+}
+#lv{ 
+    height:83%;
+    width:83%;
+
+}
+#fendi{ 
+    height:80%;
+    width:80%;
+    position: relative;
+   
+}
+#valentino{ 
+    height:50%;
+    width:50%;
+}
+#vancleef{ 
+    height:60%;
+    width:60%;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.grid-container > div {
+    margin: 15px;
+    align-items: center;
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{color: black;}
