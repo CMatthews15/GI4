@@ -13,6 +13,7 @@ header{display:flex;
     padding: 20px;
     border: 1px solid rgb(241, 179, 243);
    border-radius:6px;
+   font-size: 26px;
 }
 #descriptionHermes{
     display:flex;
@@ -22,6 +23,7 @@ header{display:flex;
    padding:10px;
    border: 1px solid rgb(241, 179, 243);
    border-radius:6px;
+
 }
 
 #descriptionLanvin{
@@ -119,7 +121,7 @@ main {
 #fendi{ 
     height:80%;
     width:80%;
-    position: relative;
+    
    
 }
 #valentino{ 
