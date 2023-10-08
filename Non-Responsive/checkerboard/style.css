@@ -1,0 +1,23 @@
+
+    .boxW{
+        width: 100px;
+        height:100px;
+        border: solid 1px black;
+        display: inline-flex;
+        margin: -4px;
+        padding:0px;}
+    
+        .boxB{
+        width: 100px;
+        height:100px;
+        border: solid 1px black;
+        display: inline-flex;
+        margin: -4px;
+        background-color: black;
+        padding:0px;}
+    
+    table{
+        height:100%;
+        width: 100%;
+       
+ 
